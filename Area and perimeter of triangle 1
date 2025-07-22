@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int base = sc.nextInt();
+        int height = sc.nextInt();
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int c = sc.nextInt();
+        float aot = (0.5f*base*height);
+        float pot = (a+b+c);
+        System.out.printf("Area of Triangle is %.2f\n",aot);
+        System.out.printf("Perimeter of Triangle is %.2f",pot);    
+    }
+}
