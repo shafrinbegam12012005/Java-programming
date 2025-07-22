@@ -1,0 +1,27 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String input = sc.nextLine();
+        try{
+            long number = Long.parseLong(input);
+            if (number >=1 && number <=9999999){
+            System.out.println("The count of the given integer is: " + input.length());
+            }
+            else{
+                System.out.println("Enter a Valid Input");
+            }
+            
+        }catch (NumberFormatException e){
+            System.out.println("Enter a Valid input");              
+        }
+        
+        sc.close();    
+    }
+}
