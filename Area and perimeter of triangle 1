@@ -13,9 +13,9 @@ public class Solution {
         int a = sc.nextInt();
         int b = sc.nextInt();
         int c = sc.nextInt();
-        float aot = (0.5f*base*height);
-        float pot = (a+b+c);
-        System.out.printf("Area of Triangle is %.2f\n",aot);
-        System.out.printf("Perimeter of Triangle is %.2f",pot);    
+        float area = (0.5f*base*height);
+        float perimeter = (a+b+c);
+        System.out.printf("Area of Triangle is %.2f\n",area);
+        System.out.printf("Perimeter of Triangle is %.2f",perimeter);    
     }
 }
